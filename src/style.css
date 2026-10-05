@@ -5569,3 +5569,24 @@ header.navbar nav.nav-links a.nav-whatsapp:hover {
     padding-bottom: 40px !important;
   }
 }
+
+
+/* FOOTER LOGO - FINAL SIZE FIX */
+.footer .footer-logo-image {
+  width: 45px !important;
+  height: 45px !important;
+  max-width: 45px !important;
+  max-height: 45px !important;
+  min-width: 45px !important;
+  min-height: 45px !important;
+  object-fit: contain !important;
+  display: block !important;
+  flex: 0 0 45px !important;
+  border-radius: 50%;
+}
+
+.footer .footer-logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 11px !important;
+}

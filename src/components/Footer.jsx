@@ -27,9 +27,11 @@ function Footer() {
 
             <Link to="/" className="footer-logo">
 
-              <div className="footer-logo-icon">
-                CSC
-              </div>
+              <img
+  src="/kajal-store-logo.webp"
+  alt={`${siteData.businessName} Logo`}
+  className="footer-logo-image"
+/>
 
               <div>
                 <h3>{siteData.serviceCentreName}</h3>
