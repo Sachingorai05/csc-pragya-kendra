@@ -129,21 +129,27 @@ function Footer() {
 
         <div className="footer-bottom">
 
-          <p>
-            © {new Date().getFullYear()}{' '}
-            {siteData.businessName}.
-            All rights reserved.
-          </p>
+  <p>
+    © {new Date().getFullYear()}{' '}
+    {siteData.businessName}.
+    All rights reserved.
+  </p>
 
-          <button
-            className="back-to-top"
-            onClick={scrollToTop}
-            aria-label="Back to top"
-          >
-            <ArrowUp size={18} />
-          </button>
+  <span className="developer-credit">
+  <span className="developer-icon">💻</span>
+  <span>Designed &amp; Developed by</span>
+  <span className="developer-name">Sachin Gorai</span>
+</span>
 
-        </div>
+  <button
+    className="back-to-top"
+    onClick={scrollToTop}
+    aria-label="Back to top"
+  >
+    <ArrowUp size={18} />
+  </button>
+
+</div>
 
       </div>
 

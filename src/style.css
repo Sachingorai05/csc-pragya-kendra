@@ -5590,3 +5590,32 @@ header.navbar nav.nav-links a.nav-whatsapp:hover {
   align-items: center !important;
   gap: 11px !important;
 }
+
+/* PREMIUM DEVELOPER SIGNATURE - NO SHAPE */
+.footer .developer-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #9ca3af;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.footer .developer-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.footer .developer-name {
+  color: #f3f4f6;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  transition: color 0.25s ease;
+}
+
+.footer .developer-credit:hover .developer-name {
+  color: #60a5fa;
+}
